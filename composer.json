@@ -1,0 +1,24 @@
+{
+  "name": "ruvents/yii1-telegram-log",
+  "description": "Yii 1 telegram log target, send logs to the telegram chats or channels",
+  "keywords": ["yii1", "telegram", "bot", "log"],
+  "type": "yii1-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+
+  },
+  "authors": [
+    {
+      "name": "Alex Krizhanovsky",
+      "email": "alex@enot.vc"
+    }
+  ],
+  "require": {
+    "guzzle/http": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ruvents\\log\\": ""
+    }
+  }
+}
